@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "movies-ml"
+version = "0.1.0"
+description = ""
+authors = ["zhenyuen <zhenyuen.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "movies_ml"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+flask = "^2.2.3"
+requests = "^2.28.2"
+apscheduler = "^3.10.1"
+pytrends = "^4.9.0"
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.2"
+lightgbm = "^3.3.5"
+python-dotenv = "^1.0.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
